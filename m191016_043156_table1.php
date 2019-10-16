@@ -19,6 +19,7 @@ class m191016_043156_table1 extends Migration
             'firm_id' => $this->primaryKey(),
             'firm_name' => $this->string()->notNull()->unique(),
             
+			
         ], $tableOptions);
     }
  
